@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    letter-spacing: -0.03rem;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100; /* Ensure header stays on top */
+}
+
+
+/* .logo-container{
+    width: fit-content;
+    height: auto;
+} */
+
+
+.logo-container img{
+    width: 200px;
+    
+}
+
+.cta-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.cta-container h3{
+    color: #262626;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.cta-container button{
+    background-color: #B54FF0;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem 2rem;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+}
+
+.hero-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    margin-top: 6rem;
+   
+}
+
+.hero-text-container{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+   
+}
+
+.hero-text-container h1{
+    font-size: 6rem;
+    color: #262626;
+}
+
+.hero-text-container p{
+    font-size: 2rem;
+    color: #666;
+}
+
+
+.hero-text-container button {
+    background-color: #B54FF0;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-image {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.hero-image img {
+    width: 1200px; 
+}
+
+
+.used-by{
+    width: 100%;
+    height: auto;
+    margin-top: 4rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+.used-by h2{
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #262626;
+}
+
+.logos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.logos img{
+    width: 80px;
+}
+
+footer{
+    background-color: black;
+    padding: 3rem;
+    margin-top: 4rem;
+}
+
+.footer-logo-container img{
+    width: 300px;
+}
+
+
+/* Color Generator Section Styles */
+#color-generator {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.title-container{
+    font-size: 1.8rem;
+    color: #262626;
+    margin: 4rem auto;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #F7E9FF;
+    width: fit-content;
+    border: 1px solid #B54FF0;
+
+}
+
+
+.color-boxes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 0.2rem;
+    margin: 0 auto; 
+    
+}
+
+.color-box{
+    width: 70%;
+    height: 700px;
+    background-color: #eee;
+    display: flex;
+    padding: 1.5rem;
+    align-items: last baseline;
+    border-radius: 1rem;
+}
+
+
+.color-box p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #262626;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.generate-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+
+.generate-btn{
+    background-color: #B54FF0;
+    color: white;
+    font-size: 1.8rem;
+    padding: 1.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 3rem; 
+}
+
+.reset-btn{
+    background-color: white;
+    border: 1px solid #B54FF0;
+    color: #B54FF0;
+    font-size: 1.8rem;
+    padding: 1.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
